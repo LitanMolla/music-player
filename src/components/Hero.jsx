@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, HashRouter, Link } from 'react-router-dom';
-import heroImg from '../assets/images/hero.png';
+import heroImg from '../assets/images/bayazid_hasan.png';
 
 const Hero = () => {
       const [isExpanded, setIsExpanded] = useState(false);
   const { hash } = useLocation();
 
-  const fullText = `Kazinama is an independent artist known for blending nostalgic melodies with modern soundscapes and captivating, story-driven visuals. With millions of monthly Spotify listeners and millions of streams and views across YouTube and other streaming platforms, his music resonates with audiences around the world. Celebrated by fans and applauded by celebrities across the globe, Kazinama's journey began as a guitar and bass player, performing over 1,100 shows internationally alongside various artists. Now stepping into the spotlight, he's launched his solo live act—Kazinama Live—a dynamic fusion of DJ performance and a hybrid live band. For updates, live shows, and new releases, stay tuned—and dive into his world of sound.`;
+  const fullText = `Al Helal Mohammod Bayijid, also known as Bayazid Hasan, is a Bangladeshi musical artist, composer, and creative visionary known for fusing modern electronic sounds with emotionally rich melodies rooted in South Asian culture. Born on February 24, 2004, in Sirajganj, Bayazid’s journey began with a passion for both music and technology.
+
+Recognized for his versatility, Bayazid has made a name for himself not only as a rising artist but also as a skilled music director, WordPress developer, and digital marketing expert. His original tracks, remixes, and visuals have earned attention across streaming platforms and social media, resonating with a growing audience.
+
+From crafting immersive musical experiences to developing high-performing websites, Bayazid represents a new wave of Bangladeshi creatives who are reshaping the digital and artistic scene. Stay tuned for his latest releases, collaborations, and innovations—and step into the world of Bayazid Hasan.`;
 
   const shortText = fullText.slice(0, 300) + '...';
 
@@ -25,7 +29,7 @@ const Hero = () => {
         <div className="max-w-customContainer m-auto px-4 md:px-6 lg:px-8">
           <div className="flex-col md:flex-row flex gap-12 items-center">
             <div className="md:w-1/2 space-y-6 text-center md:text-left">
-              <h1 className="text-5xl text-brand font-semibold">Kazinama</h1>
+              <h1 className="text-5xl text-brand font-semibold">BAYAZID HASAN</h1>
 
               <p className="text-[#D1D5DB] text-base">
                 {isExpanded ? fullText : shortText}
@@ -62,11 +66,11 @@ const Hero = () => {
                   <p className="text-[#9CA3AF] text-sm">Live Shows</p>
                 </div>
                 <div className="bg-dark p-4 rounded-xl w-[190px]">
-                  <h5 className="text-brand font-bold text-2xl">1.5M+</h5>
+                  <h5 className="text-brand font-bold text-2xl">100K+</h5>
                   <p className="text-[#9CA3AF] text-sm">Monthly Listeners</p>
                 </div>
                 <div className="bg-dark p-4 rounded-xl w-[190px]">
-                  <h5 className="text-brand font-bold text-2xl">25M+</h5>
+                  <h5 className="text-brand font-bold text-2xl">15M+</h5>
                   <p className="text-[#9CA3AF] text-sm">Total Streams</p>
                 </div>
               </div>
