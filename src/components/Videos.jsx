@@ -2,22 +2,22 @@ import React, { useState } from "react";
 
 const videos = [
   {
-    id: "WZ8ykdOh6JU",
-    title: 'Teya Dora - Džanum (Lyrics) | "moje more, my nightmares"',
-    description: "description here 😄",
-    thumbnail: `https://img.youtube.com/vi/WZ8ykdOh6JU/maxresdefault.jpg`,
+    id: "tVTM0bRcC14",
+    title: 'Russian Bandana Bangla Version"',
+    description: "Russian Bandana Bangla Version 😄",
+    thumbnail: `https://img.youtube.com/vi/tVTM0bRcC14/maxresdefault.jpg`,
   },
   {
-    id: "J0_X4yHWDTc",
-    title: "Musarrat Nazir - Ahista Ahista | Kazinama | Various Anime",
+    id: "1jUj2OhjeFU",
+    title: "Loke Bole · Bayazid Hasan ( Official Audio )",
     description: "Love flourishes in the garden of nurturing hearts..",
-    thumbnail: `https://img.youtube.com/vi/J0_X4yHWDTc/maxresdefault.jpg`,
+    thumbnail: `https://img.youtube.com/vi/1jUj2OhjeFU/maxresdefault.jpg`,
   },
   {
-    id: "I3Xujf73o2A",
-    title: "Kazinama - Latest Performance",
-    description: "",
-    thumbnail: `https://img.youtube.com/vi/I3Xujf73o2A/maxresdefault.jpg`,
+    id: "seR3Juh5qs",
+    title: "Sanjida",
+    description: "Sanjida By Bayazid Hasan",
+    thumbnail: `https://img.youtube.com/vi/5seR3Juh5qs/maxresdefault.jpg`,
   },
 ];
 
