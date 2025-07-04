@@ -6,11 +6,7 @@ const Hero = () => {
       const [isExpanded, setIsExpanded] = useState(false);
   const { hash } = useLocation();
 
-  const fullText = `Al Helal Mohammod Bayijid, also known as Bayazid Hasan, is a Bangladeshi musical artist, composer, and creative visionary known for fusing modern electronic sounds with emotionally rich melodies rooted in South Asian culture. Born on February 24, 2004, in Sirajganj, Bayazid’s journey began with a passion for both music and technology.
-
-Recognized for his versatility, Bayazid has made a name for himself not only as a rising artist but also as a skilled music director, WordPress developer, and digital marketing expert. His original tracks, remixes, and visuals have earned attention across streaming platforms and social media, resonating with a growing audience.
-
-From crafting immersive musical experiences to developing high-performing websites, Bayazid represents a new wave of Bangladeshi creatives who are reshaping the digital and artistic scene. Stay tuned for his latest releases, collaborations, and innovations—and step into the world of Bayazid Hasan.`;
+  const fullText = `Al Helal Mohammod Bayijid, also known as Bayazid Hasan, is a Bangladeshi musical artist, composer, and creative visionary known for fusing modern electronic sounds with emotionally rich melodies rooted in South Asian culture. Born on February 24, 2004, in Sirajganj, Bayazid’s journey began with a passion for both music and technology. Recognized for his versatility, Bayazid has made a name for himself not only as a rising artist but also as a skilled music director, WordPress developer, and digital marketing expert. His original tracks, remixes, and visuals have earned attention across streaming platforms and social media, resonating with a growing audience.From crafting immersive musical experiences to developing high-performing websites, Bayazid represents a new wave of Bangladeshi creatives who are reshaping the digital and artistic scene. Stay tuned for his latest releases, collaborations, and innovations—and step into the world of Bayazid Hasan.`;
 
   const shortText = fullText.slice(0, 300) + '...';
 
