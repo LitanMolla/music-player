@@ -51,12 +51,16 @@ const Timeline = () => {
       icon: "📌",
     },
     {
-      year: "2025",
-      title: "NHRDF Graphic Design Level-3",
-      description:
-        "Complete a Course of NHRDF with result of "Competent".",
-      icon: "📸",
-    },
+  year: "2025",
+  title: "NHRDF Graphic Design Level-3",
+  description: (
+    <>
+      Completed a course of NHRDF with result: <span className="font-bold text-green-400">Competent</span>
+    </>
+  ),
+  icon: "📸",
+},
+
   ];
 
   return (
