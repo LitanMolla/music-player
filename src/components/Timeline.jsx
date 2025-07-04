@@ -9,52 +9,52 @@ const Timeline = () => {
 
   const timelineData = [
     {
-      year: "2002",
-      title: "LinkedIn",
+      year: "2004",
+      title: "Born",
       description:
-        "A business and employment-oriented service that operates via websites and mobile apps.",
+        "Born In Sirajganj, February 24.",
       icon: "🔗",
     },
     {
-      year: "2004",
-      title: "Facebook",
+      year: "2014",
+      title: "Primary School End",
       description:
-        "An online social media and networking platform launched in California.",
+        "End the Primary Level of Education from ....",
       icon: "📘",
     },
     {
-      year: "2005",
-      title: "YouTube",
+      year: "2018",
+      title: "JSC",
       description:
-        "Video-sharing platform where users can upload, view, and share videos.",
+        "Completed Junior School Certificate At.....",
       icon: "▶️",
     },
     {
-      year: "2006",
-      title: "Twitter",
+      year: "2020",
+      title: "SSC",
       description:
-        "A microblogging site for sharing short posts, thoughts, and news.",
+        "Completed Senior School Certificate At.....",
       icon: "🐦",
     },
     {
-      year: "2007",
-      title: "Tumblr",
+      year: "2024",
+      title: "Basic Computer Application Course Complete",
       description:
-        "A platform for multimedia blogging and creative content sharing.",
+        ".",
       icon: "🌀",
     },
     {
-      year: "2010",
-      title: "Pinterest",
+      year: "2024",
+      title: "Diploma In Agriculture",
       description:
-        "A visual discovery engine for finding ideas like recipes and design.",
+        "Complete the Diploma In Agriculture in 2024 with CGPA 3.77 out of 4.00",
       icon: "📌",
     },
     {
-      year: "2010",
-      title: "Instagram",
+      year: "2025",
+      title: "NHRDF Graphic Design Level-3",
       description:
-        "A platform for sharing photos and videos with filters and captions.",
+        "Complete a Course of NHRDF with result of "Competent".",
       icon: "📸",
     },
   ];
