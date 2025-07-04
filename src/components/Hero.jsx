@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="max-w-customContainer m-auto px-4 md:px-6 lg:px-8">
           <div className="flex-col md:flex-row flex gap-12 items-center">
             <div className="md:w-1/2 space-y-6 text-center md:text-left">
-              <h1 className="text-5xl text-brand font-semibold">BAYAZID HASAN</h1>
+              <h1 className="text-5xl text-brand font-semibold">Bayazid Hasan</h1>
 
               <p className="text-[#D1D5DB] text-base">
                 {isExpanded ? fullText : shortText}
