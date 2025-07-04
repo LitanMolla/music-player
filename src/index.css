@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Colors */
+  --color-brand: #FFD700;
+  --color-bgDark: #121212;
+  --color-dark: #1A1A1A;
+  --color-darkHover: #252525;
+  /* Spacing  */
+  --spacing-customContainer: 1320px; 
+  /* Fonts  */
+  --font-inter: "Inter", sans-serif;
+}
