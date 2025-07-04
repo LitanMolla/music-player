@@ -19,7 +19,7 @@ const NavBar = () => {
         <nav className='max-w-customContainer m-auto px-4 md:px-6 lg:px-8'>
           <div className="flex justify-between items-center">
             <div className="">
-              <span className='text-brand text-4xl font-bold'>Kazinama</span>
+              <span className='text-brand text-4xl font-bold'>Bayazid</span>
             </div>
             {/* LG Menu */}
             <div className="hidden md:block">
