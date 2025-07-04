@@ -11,7 +11,7 @@ const Contact = () => {
                     </h3>
                     <div className="flex justify-center md:justify-between gap-6 flex-wrap">
                         {/* Social Item 01 */}
-                        <Link to={'https://www.facebook.com/LITANMOLLA09'}>
+                        <Link to={'#'}>
                         <div className="bg-dark text-center p-6 rounded-lg flex-1 duration-300 transition-all hover:bg-darkHover w-74">
                             <div className="w-16 h-16 mx-auto items-center justify-center flex rounded-full bg-[#514927] text-4xl text-brand">
                                 <i class="fa-brands fa-patreon"></i>
@@ -21,7 +21,7 @@ const Contact = () => {
                         </div>
                         </Link>
                         {/* Social Item 01 */}
-                        <Link to={'https://www.facebook.com/LITANMOLLA09'}>
+                        <Link to={'https://www.instagram.com/bayazid603/'}>
                         <div className="bg-dark text-center p-6 rounded-lg flex-1 duration-300 transition-all hover:bg-darkHover w-74">
                             <div className="w-16 h-16 mx-auto items-center justify-center flex rounded-full bg-[#514927] text-4xl text-brand">
                                 <i class="fa-brands fa-instagram"></i>
@@ -31,7 +31,7 @@ const Contact = () => {
                         </div>
                         </Link>
                         {/* Social Item 01 */}
-                        <Link to={'https://www.facebook.com/LITANMOLLA09'}>
+                        <Link to={'https://open.spotify.com/artist/3xSU7zwS2qlZd02OeSQKYo'}>
                         <div className="bg-dark text-center p-6 rounded-lg flex-1 duration-300 transition-all hover:bg-darkHover w-74">
                             <div className="w-16 h-16 mx-auto items-center justify-center flex rounded-full bg-[#514927] text-4xl text-brand">
                                 <i class="fa-brands fa-spotify"></i>
@@ -41,7 +41,7 @@ const Contact = () => {
                         </div>
                         </Link>
                         {/* Social Item 01 */}
-                        <Link to={'https://www.facebook.com/LITANMOLLA09'}>
+                        <Link to={'https://www.youtube.com/channel/UCqF_Sw3IpRMhNHh0o1lt-ng'}>
                         <div className="bg-dark text-center p-6 rounded-lg flex-1 duration-300 transition-all hover:bg-darkHover w-74">
                             <div className="w-16 h-16 mx-auto items-center justify-center flex rounded-full bg-[#514927] text-4xl text-brand">
                                 <i class="fa-brands fa-youtube"></i>
