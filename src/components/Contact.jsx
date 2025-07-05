@@ -17,7 +17,7 @@ const Contact = () => {
                                 <i class="fa-brands fa-patreon"></i>
                             </div>
                                 <h4 className='text-xl text-white font-bold mt-4 mb-2'>Patreon</h4>
-                                <p className='text-base text-[#9CA3AF]'>Get exclusive content</p>
+                                <p className='text-base text-[#9CA3AF]'>Get exclusive content </p>
                         </div>
                         </Link>
                         {/* Social Item 01 */}
